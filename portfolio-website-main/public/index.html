@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rebka Zerihun — Web Developer &amp; Database Admin</title>
+  <meta name="description" content="Portfolio of Rebka Zerihun, a web development and database administration student building clean, data-driven web experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <!-- Decorative background grid -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="logo">RZ<span class="logo-dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Hello, I&apos;m</p>
+        <h1>Rebka Zerihun</h1>
+        <h2 class="hero-role">
+          <span class="role-pill">Web Developer</span>
+          <span class="role-amp">&amp;</span>
+          <span class="role-pill">Database Administrator</span>
+        </h2>
+        <p class="hero-text">
+          I&apos;m a student passionate about building clean, responsive websites
+          and designing reliable databases behind them. I love turning ideas
+          into real, working products &mdash; from the front-end interface all the
+          way down to the data layer.
+        </p>
+        <div class="hero-actions">
+          <a href="#project" class="btn btn-primary">See my project</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="/profile.jpg" alt="Illustrated portrait of Rebka Zerihun" width="360" height="360" />
+        </div>
+        <span class="photo-badge">
+          <span class="badge-dot" aria-hidden="true"></span> Open to opportunities
+        </span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container" id="about">
+      <h2 class="section-title"><span class="num">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hi! I&apos;m <strong>Rebka Zerihun</strong>, a web development and
+            database administration student. I enjoy the full picture of building
+            software &mdash; crafting the interface people see and click, and
+            structuring the databases that keep everything organized and fast.
+          </p>
+          <p>
+            I build my projects hands-on to learn by doing. My most recent build
+            is a full e-commerce interface inspired by AliExpress, complete with
+            a dynamic header, product grids, and multiple category pages.
+          </p>
+          <p>Technologies and tools I work with:</p>
+          <ul class="tech-list">
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>SQL Databases</li>
+            <li>Database Design</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="stat">
+            <span class="stat-num" data-count="100">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">Self-built projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="6">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Core technologies</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="9">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Pages in latest build</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section class="section container" id="project">
+      <h2 class="section-title"><span class="num">02.</span> Project</h2>
+
+      <article class="project-feature">
+        <a class="project-media" href="/project/index.html" target="_blank" rel="noopener" aria-label="Open the AliExpress clone project in a new tab">
+          <img id="projectThumb" src="/project-thumb.png" alt="Screenshot of the AliExpress clone homepage" />
+          <span class="project-open">
+            <span class="open-icon" aria-hidden="true">&#8599;</span>
+            Open live project
+          </span>
+        </a>
+
+        <div class="project-body">
+          <p class="project-kicker">E-Commerce Web App</p>
+          <h3>AliExpress Clone</h3>
+          <p class="project-desc">
+            A responsive online-shopping interface inspired by AliExpress. It
+            features a reusable JavaScript-rendered header, flash-deal and
+            recommended product grids, a live countdown timer, category showcases,
+            and multiple dedicated category pages &mdash; all built from scratch.
+          </p>
+          <ul class="project-tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive</li>
+          </ul>
+          <div class="project-actions">
+            <a href="/project/index.html" target="_blank" rel="noopener" class="btn btn-primary">
+              Open live project
+            </a>
+            <a href="https://github.com/raki-1623" target="_blank" rel="noopener" class="btn btn-ghost">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills">
+      <h2 class="section-title"><span class="num">03.</span> Skills</h2>
+
+      <div class="skills-columns">
+        <div class="skills-col">
+          <h3 class="skills-heading">Web Development</h3>
+          <div class="skill">
+            <div class="skill-head"><span>HTML &amp; CSS</span><span>95%</span></div>
+            <div class="bar"><span style="--w:95%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>JavaScript</span><span>85%</span></div>
+            <div class="bar"><span style="--w:85%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>React</span><span>75%</span></div>
+            <div class="bar"><span style="--w:75%"></span></div>
+          </div>
+        </div>
+
+        <div class="skills-col">
+          <h3 class="skills-heading">Database &amp; Backend</h3>
+          <div class="skill">
+            <div class="skill-head"><span>SQL</span><span>88%</span></div>
+            <div class="bar"><span style="--w:88%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Database Design</span><span>82%</span></div>
+            <div class="bar"><span style="--w:82%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Node.js</span><span>70%</span></div>
+            <div class="bar"><span style="--w:70%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section container contact" id="contact">
+      <h2 class="section-title centered"><span class="num">04.</span> Get In Touch</h2>
+      <p class="contact-lead">
+        I&apos;m always happy to connect, collaborate, or talk about new
+        opportunities. Reach me on any of these platforms:
+      </p>
+
+      <div class="social-cards">
+        <a class="social-card" href="https://t.me/Raki2316" target="_blank" rel="noopener">
+          <span class="social-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M21.94 4.6 18.9 19.02c-.23 1.02-.83 1.27-1.68.79l-4.64-3.42-2.24 2.16c-.25.25-.46.46-.94.46l.33-4.73L18.5 5.6c.37-.33-.08-.51-.58-.18L6.5 12.6l-4.6-1.44c-1-.31-1.02-1 .21-1.48l17.99-6.93c.83-.31 1.56.2 1.29 1.48z"/></svg>
+          </span>
+          <span class="social-meta">
+            <span class="social-name">Telegram</span>
+            <span class="social-handle">@Raki2316</span>
+          </span>
+        </a>
+
+        <a class="social-card" href="https://instagram.com/16_raki" target="_blank" rel="noopener">
+          <span class="social-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="social-meta">
+            <span class="social-name">Instagram</span>
+            <span class="social-handle">@16_raki</span>
+          </span>
+        </a>
+
+        <a class="social-card" href="https://github.com/raki-1623" target="_blank" rel="noopener">
+          <span class="social-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.09.68-.22.68-.49v-1.7c-2.78.62-3.37-1.2-3.37-1.2-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.36-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9v2.82c0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          </span>
+          <span class="social-meta">
+            <span class="social-name">GitHub</span>
+            <span class="social-handle">raki-1623</span>
+          </span>
+        </a>
+
+        <a class="social-card" href="http://www.linkedin.com/in/rebka1623" target="_blank" rel="noopener">
+          <span class="social-ic" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.35c0-1.28-.02-2.92-1.78-2.92-1.78 0-2.05 1.4-2.05 2.83V21H9z"/></svg>
+          </span>
+          <span class="social-meta">
+            <span class="social-name">LinkedIn</span>
+            <span class="social-handle">in/rebka1623</span>
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Rebka Zerihun. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#top" class="back-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>

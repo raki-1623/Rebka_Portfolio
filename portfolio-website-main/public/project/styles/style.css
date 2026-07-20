@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* ዋናው የሄደር መያዣ */
+.site-header {
+    background: #ffffff;
+    padding: 20px 40px 10px 40px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%;
+}
+
+/* የላይኛው መስመር አቀማመጥ (ወደ ጎን እንዲሰለፉ ያደርጋል) */
+.header-main-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* የሎጎ ዲዛይን */
+.logo-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-icon {
+    color: #ff9a00;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.logo-brand {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #000000;
+}
+
+/* የፍለጋ ሳጥን (Search Bar) መያዣ */
+.search-bar-wrapper {
+    flex: 1;
+    max-width: 660px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+/* የፍለጋ ሳጥኑ ቅርጽ (ክብ ቅርጽ እና ጥቁር መስመር) */
+.search-input-field {
+    width: 100%;
+    padding: 12px 110px 12px 24px;
+    border: 2px solid #191919;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #000000;
+    outline: none;
+    background: #ffffff;
+}
+
+.search-input-field::placeholder {
+    color: #cccccc;
+}
+
+/* በሳጥኑ ውስጥ በቀኝ በኩል ያሉ አዶዎች */
+.search-inner-actions {
+    position: absolute;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.camera-scan-icon {
+    font-size: 18px;
+    color: #191919;
+    cursor: pointer;
+}
+
+/* የፍለጋ ምልክቱ ጥቁር ክብ በተን */
+.search-submit-button {
+    width: 36px;
+    height: 36px;
+    background: #191919;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+/* የቀኝ በኩል ሜኑዎች አሰላለፍ */
+.header-right-menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-menu-block {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #191919;
+    cursor: pointer;
+}
+
+.menu-ico {
+    font-size: 22px;
+    color: #191919;
+}
+
+.menu-label-stack {
+    font-size: 12px;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+.dimmed-welcome {
+    color: #757575;
+    font-weight: 400;
+}
+
+.account-auth-text {
+    font-weight: 700;
+}
+
+.nav-flag-icon {
+    width: 22px;
+    height: auto;
+    object-fit: cover;
+}
+
+.currency-bold-text {
+    font-weight: 700;
+}
+
+.arrow-dwn {
+    font-size: 10px;
+    color: #757575;
+    margin-left: 1px;
+}
+
+/* የካርት (Cart) አዶ እና ቁጥር */
+.cart-inline {
+    gap: 8px;
+}
+
+.cart-badge-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cart-badge-wrapper i {
+    font-size: 24px;
+}
+
+.cart-badge-number {
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 1px 5px;
+    min-width: 18px;
+    text-align: center;
+}
+
+.cart-text-label {
+    font-size: 12px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+/* የታችኛው መስመር (Categories) አቀማመጥ */
+.header-sub-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    max-width: 1440px;
+    margin: 15px auto 0 auto;
+}
+
+.categories-capsule-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000000;
+}
+
+/* ሊንኮቹ እንዳይደራረቡ ወደ ጎን የሚያሰልፍ */
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* የሊንኮቹን ሐምራዊ ቀለም እና የበታች መስመር የሚያጠፋ */
+.nav-link-item {
+    text-decoration: none; 
+    color: #000000;        
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Choice የሚለውን ሊንክ ቀይ የሚያደርግ */
+.nav-link-item.color-choice {
+    color: #ff2525;
+    font-weight: 700;
+}
+
+.nav-more-dropdown {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-more-dropdown i {
+    font-size: 10px;
+}
